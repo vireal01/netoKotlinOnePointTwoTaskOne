@@ -38,7 +38,7 @@ class FunctionsKtTest {
         val result = getMasterOrMaestroCommission(
             moneyToPay = priceToPayForZeroCommission,
             sumOfPreviousTransactions = sumOfPreviousPays )
-        assertEquals(1, result)
+        assertEquals(0, result)
     }
 
     @Test
